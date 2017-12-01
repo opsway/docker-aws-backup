@@ -1,4 +1,4 @@
-FROM ruby:2.1
+FROM ruby:2.4-alpine3.6
 RUN gem install aws-sdk-v1
 WORKDIR /app
 ADD . .
